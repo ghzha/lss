@@ -1,0 +1,9 @@
+[package]
+name = "lss"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+walkdir = "2"
+colored = "2"
+tabled = { version = "0.15.0", features = ["ansi"] }
